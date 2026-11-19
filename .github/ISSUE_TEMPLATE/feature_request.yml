@@ -1,0 +1,33 @@
+name: Feature Proposal
+description: Propose an intentionality-focused enhancement or new capability.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Minima is designed strictly for intentional device usage. Proposed features must respect our core design philosophy: zero gamification, zero attention-capture, no colorful icons, and no engagement notifications.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Context
+      description: What challenge or friction in digital intentionality does this proposal address?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Detail how the proposed capability operates.
+    validations:
+      required: true
+  - type: checkboxes
+    id: philosophy_check
+    attributes:
+      label: Anti-Addiction Compliance
+      options:
+        - label: This proposal does not introduce addictive gamification, streaks, or engagement notifications.
+          required: true
+        - label: This proposal preserves strict monochrome (#000000/#FFFFFF) typography and does not use colored icons.
+          required: true
+        - label: This proposal functions 100% offline without requiring internet access.
+          required: true

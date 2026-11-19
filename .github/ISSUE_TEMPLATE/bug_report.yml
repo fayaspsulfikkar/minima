@@ -1,0 +1,47 @@
+name: Bug Report
+description: Create a report to help us fix a defect or unexpected crash.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue in Minima. Please ensure you are testing against the latest commit on `main`.
+  - type: input
+    id: device
+    attributes:
+      label: Device & OS
+      description: e.g., Pixel 7 running Android 14 (API 34)
+      placeholder: Pixel 8, Android 14
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of Bug
+      description: A clear and concise description of what went wrong.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the issue.
+      placeholder: |
+        1. Open Minima launcher
+        2. Tap on ...
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What should have happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Logcat Output
+      description: Paste any stack traces or logcat output here.
+      render: shell
