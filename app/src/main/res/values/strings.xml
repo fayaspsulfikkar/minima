@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MINIMA</string>
+    <string name="app_tagline">MINIMA</string>
+    <string name="screen_time_label">SCREEN TIME TODAY</string>
+    <string name="screen_time_placeholder">0h 00m</string>
+    <string name="pinned_apps_placeholder">APPLICATIONS</string>
+    <string name="pinned_apps_hint">Application shortcuts will appear here in future updates.</string>
+
+    <!-- Phase 2: Application Launcher -->
+    <string name="search_placeholder">Search…</string>
+    <string name="no_apps_found">No applications found</string>
+    <string name="clear_search">Clear</string>
+    <string name="error_launch_failed">Unable to open application</string>
+
+    <!-- Phase 3: Live Usage Statistics -->
+    <string name="usage_permission_required">Permission required</string>
+    <string name="usage_permission_prompt">Tap to enable Usage Access in Settings</string>
+    <string name="usage_data_unavailable">--h --m</string>
+    <string name="usage_data_unavailable_hint">Usage data unavailable</string>
+
+    <!-- Phase 6: Gentle App-Opening Delay -->
+    <string name="delay_setting_label">delay:</string>
+    <string name="cancel_countdown">cancel</string>
+
+    <!-- Phase 7: Repeat-Open Awareness -->
+    <string name="repeat_open_alert_format">Opened %1$s %2$d times in the last %3$dm</string>
+    <string name="dismiss_alert">Dismiss</string>
+</resources>
