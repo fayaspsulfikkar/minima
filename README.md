@@ -12,6 +12,18 @@ An intentional, typography-driven Android launcher engineered to disrupt compuls
 
 ---
 
+## About Minima
+
+**Minima** is a personal-use, open-source Android home screen replacement built to systematically dismantle compulsive smartphone habits. Unlike conventional launchers designed by attention economies to maximize engagement and session duration, Minima is engineered around **intentional computing**.
+
+### Why Minima?
+- **Breaking Muscle Memory**: Most phone usage begins automatically—unlocking the phone and tapping a bright icon without a conscious objective. Minima strips away visual triggers and introduces friction before launch.
+- **Intentional Friction, Not Blockers**: Rather than hard-blocking apps or imposing restrictive lockouts that users quickly bypass out of frustration, Minima inserts a short, reflective pause (5s–15s). This restores agency and cognitive awareness.
+- **Zero Guilt, Zero Streaks**: Popular digital wellbeing tools often gamify recovery with streak pressure and punitive notifications that create secondary anxiety. Minima delivers strictly factual, neutral usage metrics with zero judgment.
+- **Privacy as a Core Invariant**: Completely offline. Zero internet permissions declared in the Android manifest. Your app habits and usage statistics never leave your device.
+
+---
+
 ## The Philosophy of Cognitive Friction
 
 Modern smartphone interfaces are deliberately engineered to minimize friction and trigger dopamine-driven habit loops: colorful high-contrast icons, unread notification badges, and instant tap-to-launch transitions.
@@ -170,3 +182,4 @@ minima/
 ## License
 
 Copyright 2026 Fayas Sulfikkar. Licensed under the [Apache License, Version 2.0](LICENSE).
+
